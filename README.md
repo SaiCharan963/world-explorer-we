@@ -4,7 +4,7 @@ A small, responsive React app that lets you explore countries around the world �
 
 ---
 
-## Features
+## 🚀 Features
 - Fetches country data from the **REST Countries API**.
 - Country list with:
   - Search by name (case-insensitive).
@@ -22,7 +22,7 @@ A small, responsive React app that lets you explore countries around the world �
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **React** (v19)
 - **Vite** (for fast build and dev server)
 - **React Router (v7)** — `createBrowserRouter` + `RouterProvider`
@@ -33,12 +33,11 @@ A small, responsive React app that lets you explore countries around the world �
 
 ---
 
-## Installation & Setup
+## ⚙️ Installation & Setup
 
 1. Clone the repo
-```bash
-git clone <your-repo-url>
-cd world-explorer
+git clone https://github.com/SaiCharan963/world-explorer-we.git
+cd world-explorer-we
 
 2. Install dependencies
 npm install
@@ -52,7 +51,7 @@ npm run dev
 
 **Routes:**
 
-/ — Home (intro + Profile + About + Contact previews)
+/ — Home (introProfile + About + Contact previews)
 /about — Interesting facts (data from data/countryData.json)
 /country — Country explorer (list, search, filter, sort)
 /country/:name — Country detail page
@@ -103,4 +102,7 @@ package.json
 
 ---
 
-## Screenshots
+## 📷 Screenshots
+<img width="1897" height="903" alt="image" src="https://github.com/user-attachments/assets/29202714-df13-4dce-b9ce-fe03c7aa2c06" />
+<img width="1897" height="904" alt="image" src="https://github.com/user-attachments/assets/f461227b-15ad-409b-af9b-29d885aab39e" />
+<img width="1896" height="900" alt="image" src="https://github.com/user-attachments/assets/38c69364-0bc9-4ef6-b91d-329ffdd572e5" />
