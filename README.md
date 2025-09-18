@@ -35,58 +35,56 @@ A small, responsive React app that lets you explore countries around the world �
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repo
+1. Clone the repo:
 git clone https://github.com/SaiCharan963/world-explorer-we.git
 cd world-explorer-we
 
-2. Install dependencies
+2. Install dependencies:
 npm install
 
-3. Run the dev server
+3. Run the dev server:
 npm run dev
 
 ---
 
-## Usage
+## 📌 Usage
 
-**Routes:**
+**Routes**
 
-/ — Home (introProfile + About + Contact previews)
-/about — Interesting facts (data from data/countryData.json)
-/country — Country explorer (list, search, filter, sort)
-/country/:name — Country detail page
-/contact — Contact page
-Invalid route → Errorpage
-How to use the Country explorer:
-Visit /country.
-Type a country name in the search box.
-Filter by region using the dropdown.
-Sort A → Z or Z → A.
-Click Read More for details with map + Wikipedia link.
+- / — Home (Intro profile + About + Contact previews)
+
+- /about — Interesting Facts (data from data/countryData.json)
+
+- /country — Country Explorer (list, search, filter, sort)
+
+- /country/:name — Country Detail Page (map + Wikipedia link)
+
+- /contact — Contact Page
+
+- Invalid routes → Error Page
+
+**How to Use the Country Explorer**
+
+- Go to /country.
+
+- Type a country name in the search box.
+
+- Filter by region using the dropdown.
+
+- Sort countries A → Z or Z → A.
+
+- Click Read More for detailed info, map, and Wikipedia link.
 
 ---
 
-## Folder Structure
+## 📂 Folder Structure
 
-/src
-  /components
-    Navbar.jsx
-    Loader.jsx
-    Card.jsx
-    CountryDetails.jsx
-    SearchFilter.jsx
-    Profile.jsx
-    Footer.jsx
-  /pages
-    Home.jsx
-    About.jsx
-    Country.jsx
-    Contact.jsx
-    Errorpage.jsx
-  /data
-    countryData.json
-  App.jsx
-  index.jsx
+/src  
+ ┣ 📁 **components** — Navbar.jsx, Loader.jsx, Card.jsx, CountryDetails.jsx, SearchFilter.jsx, Profile.jsx, Footer.jsx  
+ ┣ 📁 **pages** — Home.jsx, About.jsx, Country.jsx, Contact.jsx, Errorpage.jsx  
+ ┣ 📁 **data** — countryData.json  
+ ┣ App.jsx  
+ ┣ index.jsx  
 package.json
 
 ---
